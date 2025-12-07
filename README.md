@@ -1,4 +1,4 @@
-# Task List
+# Lista de Tarefas
 
 ## O projeto consiste em uma aplicação Full Stack completa com o objetivo de auxiliar no gerenciamento de atividades e tarefas.
 
