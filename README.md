@@ -30,21 +30,21 @@
 
 ### Primeiro, precisamos clonar ou baixar este repositório.
 
-bash
+```bash
 # Comando para clonar o repositório
-$ git clone https://github.com/manualdodev/todolist-fullstack.git
-
+$ git clone https://github.com/felipecoelhodev/todolist-fullstack.git
+```
 
 ### Após clonar o repositório, é necessário criar um banco de dados MySQL com as colunas necessárias.
 
-bash
+```bash
 # Comando para criar um banco de dados no terminal do MySQL:
 $ CREATE DATABASE nome_do_banco;
-
+```
 
 ### Em seguida, crie a tabela **tasks** que será utilizada pela aplicação.
 
-bash
+```bash
 # Comando para criar a tabela com suas colunas
 $ CREATE TABLE tasks(
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -52,30 +52,30 @@ $ CREATE TABLE tasks(
     status VARCHAR(45) NOT NULL,
     created_at VARCHAR(45) NOT NULL
 );
-
+```
 
 ### Na raiz do projeto existe o arquivo `.env.example`. Ele contém 5 campos que devem ser preenchidos em um arquivo `.env`. Basta criar ou renomear.
 
-bash
+```bash
 PORT= [Porta onde o servidor irá rodar]
 MYSQL_HOST= [Host da máquina, por padrão é 'localhost']
 MYSQL_USER= [Usuário do MySQL, por padrão 'root']
 MYSQL_PASSWORD= [Senha configurada na instalação do MySQL]
 MYSQL_DB= [Nome do banco criado anteriormente]
-
+```
 
 ### Antes de iniciar a aplicação, instale as dependências dentro da pasta `backend`.
 
-bash
+```bash
 # Instalar dependências
 $ npm install
-
+```
 
 ### Por fim, inicie o servidor e abra o arquivo `index.html`.
 
-bash
+```bash
 # Iniciar servidor
 $ npm start
-
+```
 
 <br>
