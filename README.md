@@ -1,4 +1,3 @@
-{"variant":"standard","title":"README.md","id":"59213"}
 # Task List
 
 ## O projeto consiste em uma aplicação Full Stack completa com o objetivo de auxiliar no gerenciamento de atividades e tarefas.
